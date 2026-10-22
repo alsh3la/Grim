@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grim — Files, Music & Backups in One Place</title>
+  <meta name="description" content="Grim is a fast file explorer with Google Drive sign-in, a built-in music player, and one-tap backup." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%238b5cf6'/><text x='50' y='73' font-size='62' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='%230a0a0f'>G</text></svg>" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">G</span>
+        <span class="brand-name">Grim</span>
+      </a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a class="btn btn-primary btn-sm" href="#get-started">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container">
+      <span class="pill">Files · Drive · Music · Backup</span>
+      <h1>Your files, music and backups.<br /><span class="grad">All in one dark, fast app.</span></h1>
+      <p class="lead">
+        Grim is a lightweight file explorer that connects to Google Drive, plays your music
+        library, and keeps your important folders backed up — without juggling five apps.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#features">Explore Features</a>
+        <a class="btn btn-ghost" href="privacy.html">Read Privacy Policy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURES ================= -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head">
+        <h2>Four tools. One clean interface.</h2>
+        <p>Everything Grim does is built around one idea: getting to your stuff should take zero effort.</p>
+      </div>
+
+      <div class="grid">
+
+        <!-- File Explorer -->
+        <article class="card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+            </svg>
+          </div>
+          <h3>File Explorer</h3>
+          <p>Browse local storage with a clean, fast file tree. Move, rename, search, and preview — no clutter, no lag.</p>
+        </article>
+
+        <!-- Google Drive Login -->
+        <article class="card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17.5 19a4.5 4.5 0 0 0 .6-9 6 6 0 0 0-11.7 1.6A3.5 3.5 0 0 0 7 19h10.5z" />
+            </svg>
+          </div>
+          <h3>Google Drive Login</h3>
+          <p>Sign in with your Google account to access Drive files directly. Secure OAuth — Grim never sees your password.</p>
+        </article>
+
+        <!-- Music -->
+        <article class="card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="7.5" cy="17.5" r="3" />
+              <circle cx="17.5" cy="15.5" r="3" />
+              <path d="M10.5 17.5V6l10-2v11.5" />
+            </svg>
+          </div>
+          <h3>Music Player</h3>
+          <p>Scan your folders and play local audio with a built-in player. Background playback, playlists, and no ads.</p>
+        </article>
+
+        <!-- Backup -->
+        <article class="card">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z" />
+              <path d="M9 12l2 2 4-4" />
+            </svg>
+          </div>
+          <h3>Backup</h3>
+          <p>Schedule automatic backups of selected folders to Drive or local storage. Restore in a tap whenever you need to.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="container" id="get-started">
+    <div class="cta">
+      <h2>Ready to clean up your workflow?</h2>
+      <p class="lead" style="margin-bottom:28px;">
+        Install Grim, sign in with Google, and let it handle the organizing.
+      </p>
+      <a class="btn btn-primary" href="#">Download Grim</a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2025</span> Grim. All rights reserved.</span>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
